@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #779FA1;
+  --secondary-color: #E0CBA8;
+  --btn-color-static: #E0CBA8;
+  --btn-text-static: #323232;
+  --btn-color-hover: #bda680;
+  --btn-text-hover: #1a1a1a;
+  --btn-color-active: #ebd8b9;
+  --btn-text-active: #323232;
+  --link-primary-color-static: #261e10;
+  --link-primary-color-hover: #332916;
+  --link-primary-color-active: #4d3e25;
+  /* --background-color: #fffaf2; */
+  --background-color-white: #fffcf7;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
